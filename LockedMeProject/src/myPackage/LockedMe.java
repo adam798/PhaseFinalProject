@@ -5,8 +5,6 @@ import java.io.FileWriter;
 import java.util.LinkedList;
 import java.util.Scanner;
 
-
-
 /* This class contains a number of methods that 
 * works on a wide range of data types to retrieve data from given files
 * This class will implement all the methods by
@@ -17,11 +15,9 @@ import java.util.Scanner;
 * 
 */
 
-
 public class LockedMe 
 {
 	
-
 	static final String folderpath = "/Users/adan/Adamkey/LockedMeFiles";
 	static final String errorMessage = "Some error occured. please contact : admin@lockedme.com";
 
@@ -253,9 +249,6 @@ Scanner obj= new Scanner (System.in);
 		}
 		
 		}
-	
-	
-	
 		
 		}
 		
