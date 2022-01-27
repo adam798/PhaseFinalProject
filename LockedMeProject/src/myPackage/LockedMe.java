@@ -82,9 +82,7 @@ public class LockedMe
 		System.out.println("\t\t2. Add a new file");
 		System.out.println("\t\t3. Delete a file");
 		System.out.println("\t\t4. Search a file");
-		System.out.println("\t\t5. Exit");
-	
-		
+		System.out.println("\t\t5. Exit");	
 	}
 	
 	/**
@@ -115,7 +113,6 @@ public class LockedMe
 		}
 		}
 		}
-		
 		catch(Exception Ex)
 		{
 			System.out.println("Some error occured. please contact : admin@lockedme.com");
@@ -129,13 +126,11 @@ public class LockedMe
 	public static void createFiles()
 	
 	{
-		
 		try 
 		{
 		Scanner obj= new Scanner (System.in);
 		
 		String fileName;
-		
 		
 		System.out.println("Enter file name:");
 		fileName = obj.nextLine();
@@ -178,7 +173,6 @@ public class LockedMe
 		try
 		{
 			
-		
 		String fileName;
 		System.out.println("Enter the final name to be deleted");
 		
@@ -205,8 +199,6 @@ public class LockedMe
 		}
 		
 		}
-	
-	
 	/**
 	 * This method searches files from the directory
 	 * 
@@ -218,7 +210,6 @@ Scanner obj= new Scanner (System.in);
 		try
 		{
 			
-		
 		String fileName;
 		
 		System.out.println("Enter the final name to be searched");
@@ -237,8 +228,6 @@ Scanner obj= new Scanner (System.in);
 		  System.out.println("File is available");
 		else
 			System.out.println("File is not available");
-
-		
 		}
 		catch(Exception Ex)
 		{
